@@ -34,10 +34,25 @@
       margin-top: 30px;
       border-radius: 8px;
     }
+    .contact a {
+      color: #1d3557;
+      text-decoration: none;
+    }
+    .whatsapp-button {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 12px 20px;
+      text-align: center;
+      border-radius: 5px;
+      margin-top: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
     footer {
       text-align: center;
       padding: 20px;
-      font-size: 14px;
+font-size: 14px;
       background-color: #dee2e6;
       color: #555;
     }
@@ -54,8 +69,7 @@
     <h2>Our Services</h2>
     <p>
       We are actively engaged in trading services at highly competitive rates, available 24 hours a day. Should you have any business inquiries, please feel free to direct message us.
-
-</p>
+    </p>
     <p>
       In addition to our trading services, we also offer comprehensive editing solutions for various documents and files. We are equipped to handle all types of editing needs.
     </p>
@@ -66,16 +80,8 @@
 
     <div class="contact">
       <h3>Contact Information</h3>
-      <p><strong>Phone:</strong> +2349010823303</p>
-      <p><strong>Email:</strong> uzobest4455@gmail.com</p>
+      <p><strong>Phone:</strong> <a href="tel:+2349010823303">+2349010823303</a></p>
+      <p><strong>Email:</strong> <a href="mailto:uzobest4455@gmail.com">uzobest4455@gmail.com</a></p>
       <p><strong>Address:</strong> Aguleri</p>
+      <a class="whatsapp-button" href="https://wa.me/2349010823303" target="_blank">Chat on WhatsApp</a>
     </div>
-  </section>
-
-  <footer>
-    &copy; 2025 Uzobest Editing and Trading Service. All rights reserved.
-  </footer>
-
-</body>
-</html>
-`
